@@ -1,3 +1,7 @@
+body{
+	color: lime !important;
+}
+
 .col-md-6 {
     width: 50%;
     background: black;
@@ -20,7 +24,7 @@
     margin-left: 10px;
     margin-right: 0px;
     margin-bottom: 0px;
-    background-color: #000600 !important;
+    background-color: #333 !important;
     border: 1px solid #f7f7f7;
     padding-top: 20px;
     padding-left: 25px;
@@ -38,17 +42,17 @@
     border-radius: 3px;
     border-radius: 0px;
     text-transform: uppercase;
-    color: #26ff00 !important;
+    color: lime !important;
     background-color: transparent !important;
     font-size: 12px;
     font-weight: normal !important;
-    border: 1px solid #26ff00 !important;
+    border: 1px solid lime !important;
 }
 
 .profile-title a.simple-link {
     font-size: 18px;
-    color: #26ff00 !important;
-    border: 1px solid #26ff00 !important;
+    color: lime !important;
+    border: 1px solid lime !important;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
@@ -56,14 +60,14 @@
 }
 
 .event-item[data-event-category="meet"], #events-index[data-event-category="meet"], .event-color[data-event-category="meet"] {
-    color: #26ff00 !important;
+    color: lime !important;
 }
 
 .event-list .event-item {
     position: relative;
     clear: both;
     margin: 5px;
-    color: #26ff00 !important;
+    color: lime !important;
 }
 
 .event-list .event-item .event-left .date-day {
@@ -81,28 +85,25 @@
 }
 
 a {
-    color: green !important;
+    color: gainsboro !important;
     text-decoration: none;
 }
 
 .iconf-hand-like-1:before {
     content: "\e031";
-    color: #000600 !important;
+    color: #333 !important;
 }
 
 .icon-star-9:before {
     content: "\e0a5";
-    color: #000600 !important;
+    color: #333 !important;
 }
 
-svg:not(:root) {
-	visibility: hidden;
-}
 
 .achievement-item .achievement-item--container.mini .achievement-item--image {
     width: 20%;
     max-width: 75px;
-    background: #000600 !important;
+    background: #333 !important;
     padding: 75px 15px;
 }
 .achievement-item .achievement-item--container .achievement-item--content h1 {
@@ -114,14 +115,14 @@ svg:not(:root) {
 
 .main-navbar .main-navbar-search {
     font-size: 1.04em;
-    background: #000600 !important;
+    background: #333 !important;
 }
 
 .main-navbar .main-navbar-left {
     -webkit-flex-grow: 1;
     -moz-flex-grow: 1;
     flex-grow: 1;
-    background: #000600 !important;
+    background: #333 !important;
     -ms-flex-positive: 1;
 }
 
@@ -132,11 +133,11 @@ svg:not(:root) {
 
 .main-navbar .main-navbar-user-nav>.dropdown>a {
     line-height: 40px;
-    background: #000600 !important;
+    background: #333 !important;
 }
 
 .main-navbar .user-actions {
-    background: #000600 !important;
+    background: #333 !important;
     line-height: 60px;
 }
 
@@ -165,5 +166,88 @@ svg:not(:root) {
 
 .dropup, .dropdown {
     position: relative;
-    background:#000600 !important;
+    background:#333 !important;
+}
+
+.profile-item .profile-item-top, .profile-item .profile-item-middle {
+    margin: 0 0;
+    padding: 0;
+    background-image: url("https://www.acemetrix.com/wp-content/uploads/2015/08/black-banner-vector.png") !important;
+}
+
+#sidebarCollapse {
+    right: 0px;
+    position: fixed;
+    margin-top: -3px;
+    border-color: white;
+    border-radius: 23px 1px 1px 23px;
+    width: 54px;
+    height: 46px;
+    background-color: white;
+    visibility: hidden !important;
+    margin-right: -1px;
+    z-index: 666;
+    box-shadow: 0 3px 2px 0 rgb(0 0 0 / 10%), 0 7px 11px -2px rgb(0 0 0 / 10%), 0 5px 17px 0 rgb(0 0 0 / 30%);
+}
+
+span.coalition-span{
+	color: lime !important;
+}
+
+.profile-item .user-progress .progress .progress-bar {
+    background: lime !important;
+}
+
+.main-left-navbar:not(.pro-navbar):not(user-left-navbar) {
+    justify-content: space-between;
+    background: #333 !important;
+}
+
+.main-navbar .main-navbar-logo {
+    width: 80px;
+    background: #333 !important;
+}
+
+tspan {
+	fill: white !important;
+	font-weight: bold !important;
+}
+
+g{
+	fill: lime !important
+}
+
+#banner-content-polygon-1{
+	fill: #333;
+}
+
+.main-navbar .user-profile-picture {
+    height: 40px;
+    width: 40px;
+    background-image: url(https://png.pngtree.com/png-vector/20200410/ourmid/pngtree-green-snake-and-dagger-antique-png-image_2177204.jpg) !important;
+    margin: auto;
+}
+
+.main-navbar .main-navbar-user-nav .dropdown-menu {
+    margin: 0px 0 0;
+    list-style: none;
+    font-size: 14px;
+    text-align: left;
+    background-color: #333 !important;
+    border-radius: 0px;
+    border-top: none;
+    -webkit-box-shadow: 0px 1px 1px rgb(0 0 0 / 10%);
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 10%);
+}
+
+.main-navbar .main-navbar-user-nav .dropdown-menu:hover{
+	background: #333 !important;
+}
+
+#user-locations{
+	visibility: hidden;
+}
+
+#highcharts-1{
+	visibility: hidden;
 }
