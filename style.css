@@ -1,0 +1,169 @@
+.col-md-6 {
+    width: 50%;
+    background: black;
+}
+
+.row {
+	background: black;
+}
+
+.container-inner-item boxed {
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background: #1f1f1f;
+}
+
+.container-fullsize .container-inner-item {
+    border-radius: 3px;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-color: #000600 !important;
+    border: 1px solid #f7f7f7;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    max-height: 415px;
+}
+
+.profile-title {
+    color: #ffffff !important;
+}
+
+.school-record-button {
+    padding: 3px 8px;
+    border-radius: 3px;
+    border-radius: 0px;
+    text-transform: uppercase;
+    color: #26ff00 !important;
+    background-color: transparent !important;
+    font-size: 12px;
+    font-weight: normal !important;
+    border: 1px solid #26ff00 !important;
+}
+
+.profile-title a.simple-link {
+    font-size: 18px;
+    color: #26ff00 !important;
+    border: 1px solid #26ff00 !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.event-item[data-event-category="meet"], #events-index[data-event-category="meet"], .event-color[data-event-category="meet"] {
+    color: #26ff00 !important;
+}
+
+.event-list .event-item {
+    position: relative;
+    clear: both;
+    margin: 5px;
+    color: #26ff00 !important;
+}
+
+.event-list .event-item .event-left .date-day {
+    font-size: 2em;
+    line-height: 1em;
+    font-weight: bold !important;
+    color: black !important;
+}
+
+.event-list .event-item .event-left .date-month {
+    font-size: 1em;
+    line-height: .9em;
+    color: black !important;
+    font-weight: bold !important;
+}
+
+a {
+    color: green !important;
+    text-decoration: none;
+}
+
+.iconf-hand-like-1:before {
+    content: "\e031";
+    color: #000600 !important;
+}
+
+.icon-star-9:before {
+    content: "\e0a5";
+    color: #000600 !important;
+}
+
+svg:not(:root) {
+	visibility: hidden;
+}
+
+.achievement-item .achievement-item--container.mini .achievement-item--image {
+    width: 20%;
+    max-width: 75px;
+    background: #000600 !important;
+    padding: 75px 15px;
+}
+.achievement-item .achievement-item--container .achievement-item--content h1 {
+    color: #fff !important;
+    font-family: 'futura';
+    font-size: 1.4em;
+    margin: 5px 0;
+}
+
+.main-navbar .main-navbar-search {
+    font-size: 1.04em;
+    background: #000600 !important;
+}
+
+.main-navbar .main-navbar-left {
+    -webkit-flex-grow: 1;
+    -moz-flex-grow: 1;
+    flex-grow: 1;
+    background: #000600 !important;
+    -ms-flex-positive: 1;
+}
+
+.main-navbar .main-navbar-search:before {
+    padding: 0 0;
+    color: white !important;
+}
+
+.main-navbar .main-navbar-user-nav>.dropdown>a {
+    line-height: 40px;
+    background: #000600 !important;
+}
+
+.main-navbar .user-actions {
+    background: #000600 !important;
+    line-height: 60px;
+}
+
+.main-navbar .main-navbar-user-nav>.dropdown>a>span {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white !important;
+    padding-right: 2rem;
+}
+
+.main-navbar .main-navbar-search input.search-input {
+    margin-left: 15px;
+    color: white !important;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before{
+    font-family: "streamline-30px" !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.dropup, .dropdown {
+    position: relative;
+    background:#000600 !important;
+}

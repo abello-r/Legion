@@ -1,0 +1,31 @@
+{
+	"name": "We Are Legion",
+	"permissions":[
+		"activeTab",
+		"webRequest",
+		"webRequestBlocking",
+		"*://profile.intra.42.fr/*"
+	],
+	"description": "Exlclusive for Legion's members",
+	"author": "Alexander Bello",
+	"version": "1.0",
+	"manifest_version": 2,
+	"icons":{
+		"128":"srcs/mask.png"
+	},
+	"background":{
+		"scripts":["background.js"],
+		"persistent": true
+	},
+	"content_scripts": [
+		{
+			"matches": ["*://profile.intra.42.fr/", "*://profile.intra.42.fr/users/*"],
+			"run_at": "document_start",
+			"js": ["new_group.js"],
+			"css": ["style.css"]
+		}
+	],
+	"browser_action":{
+		"default_icon":"srcs/legion.png"
+	}
+}	
