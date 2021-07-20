@@ -251,3 +251,13 @@ g{
 #highcharts-1{
 	visibility: hidden;
 }
+
+.icon-smiley-relax:before {
+    content: "\e0e9" !important;
+}
+
+.modal-body {
+    position: relative;
+    padding: 15px;
+    color: black !important;
+}

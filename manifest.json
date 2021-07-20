@@ -19,7 +19,7 @@
 	},
 	"content_scripts": [
 		{
-			"matches": ["*://profile.intra.42.fr/", "*://profile.intra.42.fr/users/*"],
+			"matches": ["*://profile.intra.42.fr/"],
 			"run_at": "document_start",
 			"js": ["new_group.js"],
 			"css": ["style.css"]
