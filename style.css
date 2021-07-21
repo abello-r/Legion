@@ -253,10 +253,6 @@ g{
 	visibility: hidden;
 }
 
-.icon-smiley-relax:before {
-    content: "\e0e9" !important;
-}
-
 .modal-body {
     position: relative;
     padding: 15px;
@@ -266,4 +262,22 @@ g{
 .coalition-span{
 	content: "hola" !important;
 	color: white !important;
+}
+
+.btn.btn-primary, .btn-primary.broadcasts-filters-btn {
+    color: #000 !important;
+    background-color: lime !important;
+    font-weight: 600 !important;
+    border-radius: 6px Im !important;
+    border-color: lime !important;
+}
+
+h1.note-title, h2.note-title, h3.note-title {
+    margin: 20px auto;
+    color: gainsboro !important;
+}
+
+.icon-smiley-relax:before {
+    content: "\e0e5" !important;
+    color: gainsboro !important;
 }
