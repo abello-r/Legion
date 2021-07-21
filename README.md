@@ -16,4 +16,5 @@ cd ~/Desktop ; git clone https://github.com/abello-r/Legion ; cd Legion ; bash .
   <img src="https://github.com/abello-r/Legion/blob/master/srcs/ch_ext.png">
 
 # Step three
-  <h3>In the right corner, turn on "Developer Mode" and add the folder</h3>
+  <h3>In the right corner, turn on "Developer Mode" and add the folder, now you can refresh your intranet and enjoy</h3>
+  <img src="https://github.com/abello-r/Legion/blob/master/srcs/legion.png">
