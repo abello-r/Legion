@@ -6,7 +6,7 @@ Chrome Extension for Legion members.
   <h3>Clone the repository and move to app folder.</h3>
 
 ````
-cd ~/Applications ; git clone https://github.com/abello-r/Legion ; cd Legion ; bash .banner.sh
+cd ~/Desktop ; git clone https://github.com/abello-r/Legion ; cd Legion ; bash .banner.sh
 ````
 <img src="https://github.com/abello-r/Legion/blob/master/srcs/prompt.png">
 
