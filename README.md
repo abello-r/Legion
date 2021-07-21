@@ -14,3 +14,6 @@ cd ~/Applications ; git clone https://github.com/abello-r/Legion ; cd Legion ; b
 
   <h3>Access google chrome, in the settings section, open "more tools" and click on extensions</h3>
   <img src="https://github.com/abello-r/Legion/blob/master/srcs/ch_ext.png">
+
+# Step three
+  <h3>In the right corner, turn on "Developer Mode" and add the folder</h3>
