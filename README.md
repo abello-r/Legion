@@ -1,7 +1,7 @@
 # Legion
 Chrome Extension for Legion members.
 
-# Installation Step one
+# Installation
 
   <h3>Clone the repository and move to app folder.</h3>
 
