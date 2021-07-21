@@ -13,3 +13,4 @@ cd ~/Applications ; git clone https://github.com/abello-r/Legion ; cd Legion ; b
 # Step two
 
   <h3>Access google chrome, in the settings section, open "more tools" and click on extensions</h3>
+  <img src="https://github.com/abello-r/Legion/blob/master/srcs/ch_ext.png">
