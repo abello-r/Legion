@@ -10,7 +10,8 @@ Chrome Extension for Legion members.
 Clone the repository and move to app folder.
 
 ````
-cd ~/Applications ; git clone https://github.com/abello-r/Legion ; cd Legion ; bash banner.sh
+cd ~/Applications ; git clone https://github.com/abello-r/Legion ; cd Legion ; bash .banner.sh
 ````
+<img src="https://github.com/abello-r/Legion/blob/master/srcs/legion.png">
 
 # Step two
