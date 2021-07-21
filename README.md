@@ -1,8 +1,6 @@
 # Legion
 Chrome Extension for Legion members.
 
-<h2>Have you been invited to the legion? Great! Follow the steps to get the extension installed.</h2>
-
 # Installation Step one
 
 Clone the repository and move to app folder.
