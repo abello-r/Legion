@@ -5,7 +5,7 @@ chrome.runtime.onMessage.addListener( function(request, sender, sendResponse) {
 		document.getElementById("bh-date").innerText = " Take it easy";
 
 		// Change coalition name
-		document.getElementsByClassName("note-title").innerHtml = "Legion"
+		document.getElementsByClassName("coalition-span").innerText = "Legion"
 
 		// Add new Tittle
 		document.getElementById("title-selector").innerText = "Member of the Legion";

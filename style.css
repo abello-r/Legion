@@ -224,7 +224,8 @@ g{
 .main-navbar .user-profile-picture {
     height: 40px;
     width: 40px;
-    background-image: url(https://png.pngtree.com/png-vector/20200410/ourmid/pngtree-green-snake-and-dagger-antique-png-image_2177204.jpg) !important;
+	background-image: url(https://us.123rf.com/450wm/taronin/taronin1701/taronin170100067/70656367-espartano-.jpg?ver=6) !important;
+	background-size: cover !important;
     margin: auto;
 }
 
@@ -260,4 +261,9 @@ g{
     position: relative;
     padding: 15px;
     color: black !important;
+}
+
+.coalition-span{
+	content: "hola" !important;
+	color: white !important;
 }
