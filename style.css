@@ -192,6 +192,11 @@ a {
 
 span.coalition-span{
 	color: lime !important;
+	text-decoration: none !important;
+}
+
+a:hover, a:focus {
+	text-decoration: none !important;
 }
 
 .profile-item .user-progress .progress .progress-bar {
@@ -259,11 +264,6 @@ g{
     color: black !important;
 }
 
-.coalition-span{
-	content: "hola" !important;
-	color: white !important;
-}
-
 .btn.btn-primary, .btn-primary.broadcasts-filters-btn {
     color: #000 !important;
     background-color: lime !important;
@@ -280,4 +280,8 @@ h1.note-title, h2.note-title, h3.note-title {
 .icon-smiley-relax:before {
     content: "\e0e9" !important;
     color: gainsboro !important;
+}
+
+.event-list .event-item .event-metadata .event-button {
+	color: black !important;
 }
