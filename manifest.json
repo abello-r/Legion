@@ -1,9 +1,7 @@
 {
 	"name": "We Are Legion",
 	"permissions":[
-		"activeTab",
 		"webRequest",
-		"webRequestBlocking",
 		"*://profile.intra.42.fr/*"
 	],
 	"description": "Exlclusive for Legion's members",
