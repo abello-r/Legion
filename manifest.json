@@ -1,15 +1,15 @@
 {
-	"name": "We Are Legion",
+	"name": "Legion 42",
 	"permissions":[
 		"webRequest",
 		"*://profile.intra.42.fr/*"
 	],
-	"description": "Exlclusive for Legion's members",
+	"description": "¡Modify your intranet to Legion mode!",
 	"author": "Alexander Bello",
-	"version": "1.0",
+	"version": "1.2.42",
 	"manifest_version": 2,
 	"icons":{
-		"128":"srcs/mask.png"
+		"128":"srcs/icon.png"
 	},
 	"background":{
 		"scripts":["background.js"],
@@ -24,6 +24,6 @@
 		}
 	],
 	"browser_action":{
-		"default_icon":"srcs/legion.png"
+		"default_icon":"srcs/scorpion.png"
 	}
-}	
+}
